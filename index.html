@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Botões</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Escolha uma opção:</h2>
+
+    <!-- Seção para Addons -->
+    <div class="button-section">
+        <h3>Addons</h3>
+        <button onclick="window.open('site1.html', '_blank')">Acessar Addons</button>
+    </div>
+
+    <!-- Seção para Informações -->
+    <div class="button-section">
+        <h3>Informações</h3>
+        <button onclick="openInfo()">Abrir Informações</button>
+    </div>
+
+    <!-- Seção para Créditos -->
+    <div class="button-section">
+        <h3>Último Crédito</h3>
+        <button onclick="window.open('creditos.html', '_blank')">Ver Créditos</button>
+    </div>
+
+    <script>
+        // Função para abrir uma nova janela com as informações
+        function openInfo() {
+            var newWindow = window.open('about:blank', '_blank');
+            newWindow.document.write('<html><head><title>Informações</title></head><body>');
+            newWindow.document.write('<h1>Informações do Site</h1>');
+            newWindow.document.write('<p>Este site foi criado por Pedro. Aqui você pode acessar addons, informações e créditos.</p>');
+            newWindow.document.write('</body></html>');
+            newWindow.document.close();
+        }
+    </script>
+
+</body>
+</html>
