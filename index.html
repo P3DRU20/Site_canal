@@ -1,45 +1,269 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site com Botões</title>
-    <!-- Link para o arquivo CSS externo -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addon de Animes - SparkNova Studio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      font-size: 2em;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #388E3C;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
 
-    <h2>Escolha uma opção:</h2>
+  <header>
+    <h1>SparkNova Studio</h1>
+    <p>As melhores addons de anime para Minecraft Bedrock Edition</p>
+  </header>
 
-    <!-- Seção para Addons -->
-    <div class="button-section">
-        <h3>Addons</h3>
-        <button onclick="window.open('site1.html', '_blank')">Acessar Addons</button>
-    </div>
+  <main>
+    <section id="naruto">
+      <h2>🌀 Addon Naruto</h2>
+      <p>Desperte o Sharingan, invoque o Rasengan e explore o mundo ninja no Minecraft!</p>
+      <img src="https://i.imgur.com/4g8PfjG.jpg" alt="Naruto Addon">
+      <div class="buttons">
+        <a href="#">Baixar via Link 1</a>
+        <a href="#">Baixar via Link 2</a>
+      </div>
+    </section>
 
-    <!-- Seção para Informações -->
-    <div class="button-section">
-        <h3>Informações</h3>
-        <button onclick="openInfo()">Abrir Informações</button>
-    </div>
+    <section id="dragonball">
+      <h2>🔥 Addon Dragon Ball</h2>
+      <p>Transformações Sayajin, Kamehameha e batalhas épicas direto no seu mundo!</p>
+      <img src="https://i.imgur.com/78RfJtV.jpg" alt="Dragon Ball Addon">
+      <div class="buttons">
+        <a href="#">Baixar via Link 1</a>
+        <a href="#">Baixar via Link 2</a>
+      </div>
+    </section>
 
-    <!-- Seção para Créditos -->
-    <div class="button-section">
-        <h3>Último Crédito</h3>
-        <button onclick="window.open('creditos.html', '_blank')">Ver Créditos</button>
-    </div>
+    <section id="blackclover">
+      <h2>🧙‍♂️ Addon Black Clover</h2>
+      <p>Grimórios, magia e lutas emocionantes inspiradas no mundo de Asta!</p>
+      <img src="https://i.imgur.com/X7YW9yP.jpg" alt="Black Clover Addon">
+      <div class="buttons">
+        <a href="#">Baixar via Link 1</a>
+        <a href="#">Baixar via Link 2</a>
+      </div>
+    </section>
+  </main>
 
-    <script>
-        // Função para abrir uma nova janela com as informações
-        function openInfo() {
-            var newWindow = window.open('about:blank', '_blank');
-            newWindow.document.write('<html><head><title>Informações</title></head><body>');
-            newWindow.document.write('<h1>Informações do Site</h1>');
-            newWindow.document.write('<p>Este site foi criado por Pedro. Aqui você pode acessar addons, informações e créditos.</p>');
-            newWindow.document.write('</body></html>');
-            newWindow.document.close();
-        }
-    </script>
+  <footer>
+    © 2025 SparkNova Studio — Todos os direitos reservados.
+  </footer>
 
 </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addon de Animes - SparkNova Studio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      font-size: 2em;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #388E3C;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SparkNova Studio</h1>
+    <p>As melhores addons de anime para Minecraft Bedrock Edition</p>
+  </header>
+
+  <main>
+    <section id="naruto">
+      <h2>🌀 Addon Naruto</h2>
+      <p>Desperte o Sharingan, invoque o Rasengan e explore o mundo ninja no Minecraft!</p>
+      <img src="https://i.imgur.com/4g8PfjG.jpg" alt="Naruto Addon">
+      <div class="buttons">
+        <a href="#">Baixar via Link 1</a>
+        <a href="#">Baixar via Link 2</a>
+      </div>
+    </section>
+
+    <section id="dragonball">
+      <h2>🔥 Addon Dragon Ball</h2>
+      <p>Transformações Sayajin, Kamehameha e batalhas épicas direto no seu mundo!</p>
+      <img src="https://i.imgur.com/78RfJtV.jpg" alt="Dragon Ball Addon">
+      <div class="buttons">
+        <a href="#">Baixar via Link 1</a>
+        <a href="#">Baixar via Link 2</a>
+      </div>
+    </section>
+
+    <section id="blackclover">
+      <h2>🧙‍♂️ Addon Black Clover</h2>
+      <p>Grimórios, magia e lutas emocionantes inspiradas no mundo de Asta!</p>
+      <img src="https://i.imgur.com/X7YW9yP.jpg" alt="Black Clover Addon">
+      <div class="buttons">
+        <a href="#">Baixar via Link 1</a>
+        <a href="#">Baixar via Link 2</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 SparkNova Studio — Todos os direitos reservados.
+  </footer>
+
+</body>
+    </html>
