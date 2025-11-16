@@ -1,0 +1,211 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7ff; /* fundo suave */
+  margin: 0;
+  padding: 20px;
+}
+
+#titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3a8a; /* azul escuro bonito */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-texto {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+#botao-container {
+  display: flex;
+  gap: 12px;
+  background: #3b82f6; /* azul claro */
+  padding: 10px;
+  border-radius: 8px;
+}
+#bemvindo {
+  text-align: center;      /* Centraliza tudo dentro */
+  margin-top: 40px;
+}
+
+.bemvindo-img {
+  width: 300px;            /* Ajuste o tamanho se quiser */
+  border-radius: 12px;     /* Borda arredondada */
+  margin-bottom: 20px;
+}
+
+.bemvindo-texto {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.5;
+}
+/* Fundo geral do site */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a0006, #33000f, #730018);
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Cabeçalho */
+#titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b3002d; /* vermelho forte */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.titulo-texto {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+/* Container dos botões */
+#botao-container {
+  display: flex;
+  gap: 12px;
+  background: #ff003c;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Área de boas-vindas */
+#bemvindo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bemvindo-img {
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 25px rgba(255, 0, 60, 0.5);
+}
+
+.bemvindo-texto {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffeef3;
+}
+#rodape {
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 18px;
+  color: #ffd6e0; /* rosa claro combinando */
+  opacity: 0.8;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a0006, #33000f, #730018);
+  background-attachment: fixed;
+  color: white;
+
+  min-height: 100vh; /* 🔥 Faz o fundo ocupar a tela inteira */
+  display: flex;
+  flex-direction: column;
+}
+#rodape {
+  text-align: center;
+  margin-top: auto; /* 🔥 Empurra o rodapé pro final */
+  padding: 15px;
+  font-size: 18px;
+  color: #ffd6e0;
+  opacity: 0.8;
+}
+/* Fundo geral */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a0006, #33000f, #730018);
+  background-attachment: fixed;
+  color: white;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+#titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b3002d;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.titulo-texto {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+/* Botão de voltar */
+#botao-container {
+  display: flex;
+  gap: 12px;
+  background: #ff003c;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Conteúdo central */
+#conteudo {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.descricao-titulo {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffd6e0;
+}
+
+.descricao-texto {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.discord-link {
+  color: #00aaff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.discord-link:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+#rodape {
+  text-align: center;
+  margin-top: auto;
+  padding: 15px;
+  font-size: 18px;
+  color: #ffd6e0;
+  opacity: 0.8;
+}
+
